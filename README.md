@@ -8,8 +8,10 @@ In Chennai, the population of traditional (Indian or Tamil-ian) food seekers and
 ## Data Description :
 The Foursquare data will provide the reviews and tags for the hotels and restaurants in Chennai, which can be used to
 
-1 - Label theses restaurants into Indian or Western etc. This requires a more in-depth analysis of the FourSquare json. 
+1 - Label theses restaurants into Indian or Western etc. This requires a more in-depth analysis of the FourSquare json.
+
 2 - Build a base K-Means ( or any other Clustering algorithm) that would recommend a similar restaurant option to a new user.
+
 3 - Add the feature created in step 1 to a new model and compare the accuracies.
 
 
