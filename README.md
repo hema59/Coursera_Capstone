@@ -35,6 +35,5 @@ I used get_dummies() from pandas to encode the categories in the chennai_venues 
 ### Clustering
 I tested n_clusters with 3,4 and 5. And 3 gave a clearer picture of the Clustering happening with the venues in Chennai. I then used a folium map to create the final map of Chennai with 3 clusters.
 
-![alt text](https://github.com/[hema59]/[Coursera_Capstone]/blob/[master]/final_cluster_map.PNG?raw=true)
-
+![alt text](https://github.com/hema59/Coursera_Capstone/blob/main/final_cluster_map.PNG)
 ## Conclusion
