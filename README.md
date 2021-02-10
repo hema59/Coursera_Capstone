@@ -36,4 +36,6 @@ I used get_dummies() from pandas to encode the categories in the chennai_venues 
 I tested n_clusters with 3,4 and 5. And 3 gave a clearer picture of the Clustering happening with the venues in Chennai. I then used a folium map to create the final map of Chennai with 3 clusters.
 
 ![alt text](https://github.com/hema59/Coursera_Capstone/blob/main/final_cluster_map.PNG)
+
 ## Conclusion
+This Clustering model explained how the popular venues in Chennai are distributed. The more restaurant, with high average ratings, means that the Segment is bound to be happening. So, depending on where the new data sample is originated, this algorithm would be able to recommend an apt popular spot.
