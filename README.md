@@ -21,4 +21,20 @@ Further more, The Foursquare data will provide the reviews and tags for the hote
 
 3 - Add the feature created in step 1 to a new model and compare the accuracies.
 
+## Methodology
 
+### Formatting Result JSON from Foursquare
+The structure of the JSON consisted of response, groups, venue name, venue location and venue category. I used json_normalize() from pandas.io.json library to unpack these values and store it in the chennai_venues dataframe
+
+### Exploring Ratings from Zomato
+The .csv from the Kaggle site with Chennai's restaurant rating contained more information than needed for this clustering project, which I ended up dropping. About 489 restaurant information matched the Chennai Segments file that I started with, so I used only those for further analysis.
+
+### Pre-processing for Clustering Algorithm
+I used get_dummies() from pandas to encode the categories in the chennai_venues dataframe. This was then grouped into the respective Segments which ended up with 422 rows for Clustering.
+
+### Clustering
+I tested n_clusters with 3,4 and 5. And 3 gave a clearer picture of the Clustering happening with the venues in Chennai. I then used a folium map to create the final map of Chennai with 3 clusters.
+
+![alt text](http://url/to/img.png)
+
+## Conclusion
